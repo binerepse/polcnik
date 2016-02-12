@@ -3,7 +3,9 @@ body {
 }
 .navigation {
 	padding-right: 0px;
-	margin-right: 60%;
+	margin-right: 11%;
+	max-width: 550px;
+	min-width: 200px;
 	position: relative;
 	z-index: 100;
 }

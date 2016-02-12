@@ -91,4 +91,5 @@ $(window).resize(function(){
 
 	$(".navigation").css("margin-top", marginTop);
 	$(".navigation").css("margin-left", marginLeft);
+
 });
