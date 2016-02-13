@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 	$(".navigation").css("margin-top", marginTop);
 	$(".navigation").css("margin-left", marginLeft);
-	$(".container").css("min-width", prvotnaSirina);
+	$(".container").css("min-width", screen.width);
 
 
 
