@@ -10,7 +10,8 @@ $(document).ready(function(){
 
 	$(".navigation").css("margin-top", marginTop);
 	$(".navigation").css("margin-left", marginLeft);
-	$(".container").css("min-width", prvotnaSirina);
+	$(".container").css("min-width", 1440);
+
 
 
 	//Prikazovanje in skrivanje opisa
@@ -94,6 +95,7 @@ $(window).resize(function(){
 
 	$(".navigation").css("margin-top", marginTop);
 	$(".navigation").css("margin-left", marginLeft);
+
 	if(sirina < 768){
 		$(".carousel-indicators").hide();
 	}else {
