@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 	$(".navigation").css("margin-top", marginTop);
 	$(".navigation").css("margin-left", marginLeft);
-	$(".container").css("min-width", sirina);
+	$(".container").css("min-width", prvotnaSirina);
 
 
 	//Prikazovanje in skrivanje opisa
