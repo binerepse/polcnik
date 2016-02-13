@@ -1,13 +1,16 @@
+var prvotnaSirina;
 $(document).ready(function(){
 	var visina = window.innerHeight;
 	var marginTop = visina*0.187;
 	var sirina = window.innerWidth;
+	prvotnaSirina = sirina;
 	var marginLeft = sirina*0.020;
 
 	// Pozicioniranje menija, glede na velikost okna
 
 	$(".navigation").css("margin-top", marginTop);
 	$(".navigation").css("margin-left", marginLeft);
+	$(".container").css("min-width", 1440);
 
 
 	//Prikazovanje in skrivanje opisa
@@ -91,5 +94,11 @@ $(window).resize(function(){
 
 	$(".navigation").css("margin-top", marginTop);
 	$(".navigation").css("margin-left", marginLeft);
+	if(sirina < 768){
+		$(".carousel-indicators").hide();
+	}else {
+		$(".carousel-indicators").show();
+	}
+	
 
 });

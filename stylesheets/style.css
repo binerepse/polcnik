@@ -70,8 +70,13 @@ a:visited , a:hover, a:active, a:link {
 
 .carousel-indicators {
 	position: fixed;
-	margin-bottom: 40px;
-	margin-left: 180px;
+	width: auto;
+	margin-right: 0px;
+	margin-left: 0px;
+	bottom: 50px;
+	right: 70px;
+	left: auto;
+	padding: 0px;
 }
 .carousel-indicators li {
 	background-color: #E7942F;
