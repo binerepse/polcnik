@@ -11,7 +11,11 @@ $(document).ready(function(){
 	$(".navigation").css("margin-top", marginTop);
 	$(".navigation").css("margin-left", marginLeft);
 	$(".container").css("min-width", screen.width);
-
+	if(sirina < 768){
+		$(".carousel-indicators").hide();
+	}else {
+		$(".carousel-indicators").show();
+	}
 
 
 	//Prikazovanje in skrivanje opisa
